@@ -7,7 +7,8 @@ export default async function handler(req, res) {
 
   // quick env check
   if (!process.env.GEMINI_API_KEY) {
-    return res.status(200).json({ answer: 'DEBUG: GEMINI_API_KEY is not set in Vercel environment variables.' });
+    var keys = Object.keys(process.env).filter(function(k){ return !k.startsWith('AWS') && !k.startsWith('LAMBDA') && !k.startsWith('_'); });
+    return res.status(200).json({ answer: 'DEBUG: GEMINI_API_KEY not visible. Env vars the function CAN see: ' + keys.join(', ').slice(0,600) });
   }
 
   try {
