@@ -1,0 +1,1499 @@
+{
+ "meta": {
+  "version": "1.0",
+  "last_verified": "2026-08-09",
+  "source": "The 38 Initiative \u2014 county-by-county web verification",
+  "note": "Tiers are manually verified against hospital IBD programs, physician records, and specialty directories. NPI registry is used only as a change trip-wire, not a source of truth."
+ },
+ "adi_weights": {
+  "tier": 40,
+  "dist_tier1": 30,
+  "dist_tier2": 15,
+  "single_provider": 10,
+  "inverse_population": 5
+ },
+ "counties": {
+  "53001": {
+   "name": "Adams",
+   "town": "Othello",
+   "pop": 19983,
+   "tier": 5,
+   "care": "Dr. Kaely Bade, Adams Memorial (Othello)",
+   "lat": 46.826,
+   "lon": -119.175,
+   "ferry": false,
+   "single": true,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 158,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 184,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 43,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Yakima",
+     "d": 65,
+     "t": "Yakima"
+    },
+    "5": {
+     "n": "Adams",
+     "d": 0,
+     "t": "Othello"
+    }
+   }
+  },
+  "53003": {
+   "name": "Asotin",
+   "town": "Clarkston",
+   "pop": 22673,
+   "tier": 5,
+   "care": "Larsen Gastroenterology (Clarkston)",
+   "lat": 46.416,
+   "lon": -117.045,
+   "ferry": false,
+   "single": true,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 262,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 275,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 88,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 67,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Asotin",
+     "d": 0,
+     "t": "Clarkston"
+    }
+   }
+  },
+  "53005": {
+   "name": "Benton",
+   "town": "Kennewick",
+   "pop": 221722,
+   "tier": 3,
+   "care": "Tri-Cities Digestive Health + infusion",
+   "lat": 46.211,
+   "lon": -119.137,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 179,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 174,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 0,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 39,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Franklin",
+     "d": 3,
+     "t": "Pasco"
+    }
+   }
+  },
+  "53007": {
+   "name": "Chelan",
+   "town": "Wenatchee",
+   "pop": 81941,
+   "tier": 4,
+   "care": "Confluence Health (Jorgensen, Patwardhan, Anand)",
+   "lat": 47.423,
+   "lon": -120.31,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 95,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 116,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 100,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 0,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Kittitas",
+     "d": 31,
+     "t": "Ellensburg"
+    }
+   }
+  },
+  "53009": {
+   "name": "Clallam",
+   "town": "Port Angeles",
+   "pop": 78202,
+   "tier": 5,
+   "care": "Olympic Medical Center (Port Angeles/Sequim)",
+   "lat": 48.118,
+   "lon": -123.431,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 62,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 55,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 241,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Kitsap",
+     "d": 47,
+     "t": "Silverdale"
+    },
+    "5": {
+     "n": "Clallam",
+     "d": 0,
+     "t": "Port Angeles"
+    }
+   }
+  },
+  "53011": {
+   "name": "Clark",
+   "town": "Vancouver",
+   "pop": 532119,
+   "tier": 2,
+   "care": "Dr. Jason Etzel, Vancouver Clinic (CCF/UNC IBD fellowship)",
+   "lat": 45.639,
+   "lon": -122.661,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 137,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 0,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 174,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Cowlitz",
+     "d": 37,
+     "t": "Longview"
+    },
+    "5": {
+     "n": "Lewis",
+     "d": 76,
+     "t": "Centralia"
+    }
+   }
+  },
+  "53013": {
+   "name": "Columbia",
+   "town": "Dayton",
+   "pop": 4078,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 46.317,
+   "lon": -117.976,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 224,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 230,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 56,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 25,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Asotin",
+     "d": 45,
+     "t": "Clarkston"
+    }
+   }
+  },
+  "53015": {
+   "name": "Cowlitz",
+   "town": "Longview",
+   "pop": 114885,
+   "tier": 4,
+   "care": "PeaceHealth St. John (Longview)",
+   "lat": 46.138,
+   "lon": -122.938,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 105,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 37,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 182,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Cowlitz",
+     "d": 0,
+     "t": "Longview"
+    },
+    "5": {
+     "n": "Lewis",
+     "d": 40,
+     "t": "Centralia"
+    }
+   }
+  },
+  "53017": {
+   "name": "Douglas",
+   "town": "East Wenatchee",
+   "pop": 46935,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 47.425,
+   "lon": -120.291,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 96,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 117,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 100,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 1,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Kittitas",
+     "d": 32,
+     "t": "Ellensburg"
+    }
+   }
+  },
+  "53019": {
+   "name": "Ferry",
+   "town": "Republic",
+   "pop": 7796,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 48.649,
+   "lon": -118.737,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 181,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 165,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 91,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 112,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Stevens",
+     "d": 39,
+     "t": "Colville"
+    }
+   }
+  },
+  "53021": {
+   "name": "Franklin",
+   "town": "Pasco",
+   "pop": 95222,
+   "tier": 5,
+   "care": "Lourdes West Pasco GI clinic",
+   "lat": 46.239,
+   "lon": -119.1,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 179,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 176,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 3,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 38,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Franklin",
+     "d": 0,
+     "t": "Pasco"
+    }
+   }
+  },
+  "53023": {
+   "name": "Garfield",
+   "town": "Pomeroy",
+   "pop": 2225,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 46.475,
+   "lon": -117.6,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 236,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 249,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 76,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 45,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Asotin",
+     "d": 27,
+     "t": "Clarkston"
+    }
+   }
+  },
+  "53025": {
+   "name": "Grant",
+   "town": "Moses Lake",
+   "pop": 105727,
+   "tier": 5,
+   "care": "Samaritan + Confluence (Moses Lake)",
+   "lat": 47.13,
+   "lon": -119.278,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 147,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 168,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 64,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 52,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Grant",
+     "d": 0,
+     "t": "Moses Lake"
+    }
+   }
+  },
+  "53027": {
+   "name": "Grays Harbor",
+   "town": "Aberdeen",
+   "pop": 78144,
+   "tier": 5,
+   "care": "Harbor Regional Health (Aberdeen)",
+   "lat": 46.975,
+   "lon": -123.816,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 82,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 108,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 228,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Pierce",
+     "d": 67,
+     "t": "Tacoma"
+    },
+    "5": {
+     "n": "Grays Harbor",
+     "d": 0,
+     "t": "Aberdeen"
+    }
+   }
+  },
+  "53029": {
+   "name": "Island",
+   "town": "Oak Harbor",
+   "pop": 89007,
+   "tier": 5,
+   "care": "Covered by Skagit Regional (Datta, IBD-focused)",
+   "lat": 48.293,
+   "lon": -122.644,
+   "ferry": true,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 50,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 17,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 218,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Snohomish",
+     "d": 30,
+     "t": "Everett"
+    },
+    "5": {
+     "n": "Island",
+     "d": 0,
+     "t": "Oak Harbor"
+    }
+   }
+  },
+  "53031": {
+   "name": "Jefferson",
+   "town": "Port Townsend",
+   "pop": 35227,
+   "tier": 6,
+   "care": "None \u2014 endoscopy performed by general surgeons; no gastroenterologist",
+   "lat": 48.117,
+   "lon": -122.76,
+   "ferry": true,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 41,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 29,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 215,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Snohomish",
+     "d": 27,
+     "t": "Everett"
+    },
+    "5": {
+     "n": "Island",
+     "d": 13,
+     "t": "Oak Harbor"
+    }
+   }
+  },
+  "53033": {
+   "name": "King",
+   "town": "Seattle",
+   "pop": 2344939,
+   "tier": 1,
+   "care": "UW IBD Center, Virginia Mason, Swedish, Seattle Children's",
+   "lat": 47.606,
+   "lon": -122.332,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 0,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 56,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 179,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Kitsap",
+     "d": 17,
+     "t": "Silverdale"
+    },
+    "5": {
+     "n": "Mason",
+     "d": 45,
+     "t": "Shelton"
+    }
+   }
+  },
+  "53035": {
+   "name": "Kitsap",
+   "town": "Silverdale",
+   "pop": 283374,
+   "tier": 4,
+   "care": "Dr. Abimbola Adike (VMFH, Poulsbo)",
+   "lat": 47.645,
+   "lon": -122.694,
+   "ferry": true,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 17,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 56,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 195,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Kitsap",
+     "d": 0,
+     "t": "Silverdale"
+    },
+    "5": {
+     "n": "Mason",
+     "d": 35,
+     "t": "Shelton"
+    }
+   }
+  },
+  "53037": {
+   "name": "Kittitas",
+   "town": "Ellensburg",
+   "pop": 49503,
+   "tier": 5,
+   "care": "Dr. Feng (Ellensburg) \u2014 solo, aging",
+   "lat": 46.997,
+   "lon": -120.548,
+   "ferry": false,
+   "single": true,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 94,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 129,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 86,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Yakima",
+     "d": 27,
+     "t": "Yakima"
+    },
+    "5": {
+     "n": "Kittitas",
+     "d": 0,
+     "t": "Ellensburg"
+    }
+   }
+  },
+  "53039": {
+   "name": "Klickitat",
+   "town": "Goldendale",
+   "pop": 23622,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 45.821,
+   "lon": -120.821,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 143,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 90,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 85,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Yakima",
+     "d": 56,
+     "t": "Yakima"
+    },
+    "5": {
+     "n": "Kittitas",
+     "d": 82,
+     "t": "Ellensburg"
+    }
+   }
+  },
+  "53041": {
+   "name": "Lewis",
+   "town": "Centralia",
+   "pop": 88062,
+   "tier": 5,
+   "care": "Steck/Centralia Specialty Center",
+   "lat": 46.716,
+   "lon": -122.954,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 68,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 76,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 185,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Cowlitz",
+     "d": 40,
+     "t": "Longview"
+    },
+    "5": {
+     "n": "Lewis",
+     "d": 0,
+     "t": "Centralia"
+    }
+   }
+  },
+  "53043": {
+   "name": "Lincoln",
+   "town": "Davenport",
+   "pop": 10695,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 47.654,
+   "lon": -118.15,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 195,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 200,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 34,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 102,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Stevens",
+     "d": 63,
+     "t": "Colville"
+    }
+   }
+  },
+  "53045": {
+   "name": "Mason",
+   "town": "Shelton",
+   "pop": 67430,
+   "tier": 5,
+   "care": "Gastroenterology Associates (Shelton)",
+   "lat": 47.215,
+   "lon": -123.101,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 45,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 91,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 200,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Pierce",
+     "d": 31,
+     "t": "Tacoma"
+    },
+    "5": {
+     "n": "Mason",
+     "d": 0,
+     "t": "Shelton"
+    }
+   }
+  },
+  "53047": {
+   "name": "Okanogan",
+   "town": "Omak",
+   "pop": 43956,
+   "tier": 5,
+   "care": "Dr. McCourtie (Omak) + Confluence circuit",
+   "lat": 48.411,
+   "lon": -119.528,
+   "ferry": false,
+   "single": true,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 141,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 129,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 110,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 77,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Okanogan",
+     "d": 0,
+     "t": "Omak"
+    }
+   }
+  },
+  "53049": {
+   "name": "Pacific",
+   "town": "South Bend",
+   "pop": 23265,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 46.664,
+   "lon": -123.804,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 95,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 89,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 224,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Cowlitz",
+     "d": 55,
+     "t": "Longview"
+    },
+    "5": {
+     "n": "Grays Harbor",
+     "d": 21,
+     "t": "Aberdeen"
+    }
+   }
+  },
+  "53051": {
+   "name": "Pend Oreille",
+   "town": "Newport",
+   "pop": 14011,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 48.18,
+   "lon": -117.045,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 248,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 244,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 40,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 158,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Stevens",
+     "d": 47,
+     "t": "Colville"
+    }
+   }
+  },
+  "53053": {
+   "name": "Pierce",
+   "town": "Tacoma",
+   "pop": 946288,
+   "tier": 4,
+   "care": "Mary Bridge peds IBD (Frank, Gupta); adult general GI",
+   "lat": 47.253,
+   "lon": -122.444,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 25,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 81,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 172,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Pierce",
+     "d": 0,
+     "t": "Tacoma"
+    },
+    "5": {
+     "n": "Thurston",
+     "d": 26,
+     "t": "Olympia"
+    }
+   }
+  },
+  "53055": {
+   "name": "San Juan",
+   "town": "Friday Harbor",
+   "pop": 17582,
+   "tier": 5,
+   "care": "PeaceHealth Peace Island \u2014 visiting GI",
+   "lat": 48.534,
+   "lon": -123.017,
+   "ferry": true,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 71,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Whatcom",
+     "d": 29,
+     "t": "Bellingham"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 242,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Snohomish",
+     "d": 54,
+     "t": "Everett"
+    },
+    "5": {
+     "n": "San Juan",
+     "d": 0,
+     "t": "Friday Harbor"
+    }
+   }
+  },
+  "53057": {
+   "name": "Skagit",
+   "town": "Mount Vernon",
+   "pop": 132975,
+   "tier": 2,
+   "care": "Skagit Regional (Datta \u2014 published IBD research)",
+   "lat": 48.421,
+   "lon": -122.334,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 56,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 0,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 214,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Snohomish",
+     "d": 31,
+     "t": "Everett"
+    },
+    "5": {
+     "n": "Island",
+     "d": 17,
+     "t": "Oak Harbor"
+    }
+   }
+  },
+  "53059": {
+   "name": "Skamania",
+   "town": "Stevenson",
+   "pop": 12083,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 45.695,
+   "lon": -121.886,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 134,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 38,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 137,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Cowlitz",
+     "d": 59,
+     "t": "Longview"
+    },
+    "5": {
+     "n": "Lewis",
+     "d": 87,
+     "t": "Centralia"
+    }
+   }
+  },
+  "53061": {
+   "name": "Snohomish",
+   "town": "Everett",
+   "pop": 870656,
+   "tier": 4,
+   "care": "WWMG (Mu, Loura)",
+   "lat": 47.979,
+   "lon": -122.202,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 26,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 31,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 189,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Snohomish",
+     "d": 0,
+     "t": "Everett"
+    },
+    "5": {
+     "n": "Island",
+     "d": 30,
+     "t": "Oak Harbor"
+    }
+   }
+  },
+  "53063": {
+   "name": "Spokane",
+   "town": "Spokane",
+   "pop": 558344,
+   "tier": 3,
+   "care": "McShane, McCabe + infusion (Spokane Digestive)",
+   "lat": 47.659,
+   "lon": -117.425,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 228,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 233,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 0,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 118,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Whitman",
+     "d": 54,
+     "t": "Colfax"
+    }
+   }
+  },
+  "53065": {
+   "name": "Stevens",
+   "town": "Colville",
+   "pop": 49776,
+   "tier": 5,
+   "care": "Providence network \u2014 no named gastroenterologist confirmed",
+   "lat": 48.546,
+   "lon": -117.905,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 214,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 203,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 65,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Chelan",
+     "d": 136,
+     "t": "Wenatchee"
+    },
+    "5": {
+     "n": "Stevens",
+     "d": 0,
+     "t": "Colville"
+    }
+   }
+  },
+  "53067": {
+   "name": "Thurston",
+   "town": "Olympia",
+   "pop": 304261,
+   "tier": 5,
+   "care": "OMSC, Gastro Health (Olympia)",
+   "lat": 47.038,
+   "lon": -122.9,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 47,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 97,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 187,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Pierce",
+     "d": 26,
+     "t": "Tacoma"
+    },
+    "5": {
+     "n": "Thurston",
+     "d": 0,
+     "t": "Olympia"
+    }
+   }
+  },
+  "53069": {
+   "name": "Wahkiakum",
+   "town": "Cathlamet",
+   "pop": 4519,
+   "tier": 6,
+   "care": "None \u2014 no gastroenterologist in this county",
+   "lat": 46.205,
+   "lon": -123.383,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 109,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 52,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 203,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Cowlitz",
+     "d": 22,
+     "t": "Longview"
+    },
+    "5": {
+     "n": "Lewis",
+     "d": 41,
+     "t": "Centralia"
+    }
+   }
+  },
+  "53071": {
+   "name": "Walla Walla",
+   "town": "Walla Walla",
+   "pop": 62361,
+   "tier": 4,
+   "care": "Providence St. Mary (Hames, Harri)",
+   "lat": 46.065,
+   "lon": -118.343,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 217,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 210,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 39,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 0,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Franklin",
+     "d": 38,
+     "t": "Pasco"
+    }
+   }
+  },
+  "53073": {
+   "name": "Whatcom",
+   "town": "Bellingham",
+   "pop": 236392,
+   "tier": 2,
+   "care": "NW Gastroenterology (Siemanowski + infusion)",
+   "lat": 48.75,
+   "lon": -122.479,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 79,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Whatcom",
+     "d": 0,
+     "t": "Bellingham"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 235,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Snohomish",
+     "d": 55,
+     "t": "Everett"
+    },
+    "5": {
+     "n": "San Juan",
+     "d": 29,
+     "t": "Friday Harbor"
+    }
+   }
+  },
+  "53075": {
+   "name": "Whitman",
+   "town": "Colfax",
+   "pop": 48512,
+   "tier": 5,
+   "care": "Whitman Hospital (Dr. Jones, Colfax)",
+   "lat": 46.881,
+   "lon": -117.364,
+   "ferry": false,
+   "single": true,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 238,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Skagit",
+     "d": 255,
+     "t": "Mount Vernon"
+    },
+    "3": {
+     "n": "Spokane",
+     "d": 54,
+     "t": "Spokane"
+    },
+    "4": {
+     "n": "Walla Walla",
+     "d": 73,
+     "t": "Walla Walla"
+    },
+    "5": {
+     "n": "Whitman",
+     "d": 0,
+     "t": "Colfax"
+    }
+   }
+  },
+  "53077": {
+   "name": "Yakima",
+   "town": "Yakima",
+   "pop": 259185,
+   "tier": 4,
+   "care": "Kirtane (MultiCare), Le (Astria)",
+   "lat": 46.602,
+   "lon": -120.505,
+   "ferry": false,
+   "single": false,
+   "nt": {
+    "1": {
+     "n": "King",
+     "d": 110,
+     "t": "Seattle"
+    },
+    "2": {
+     "n": "Clark",
+     "d": 123,
+     "t": "Vancouver"
+    },
+    "3": {
+     "n": "Benton",
+     "d": 71,
+     "t": "Kennewick"
+    },
+    "4": {
+     "n": "Yakima",
+     "d": 0,
+     "t": "Yakima"
+    },
+    "5": {
+     "n": "Kittitas",
+     "d": 27,
+     "t": "Ellensburg"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "last_run": null,
+  "npi_counts": {},
+  "entries": [
+    {
+      "date": "2026-08-09",
+      "county": "All counties",
+      "fips": null,
+      "type": "audit",
+      "severity": "info",
+      "note": "Initial 39-county web audit completed. 11 verified medical deserts, 184,456 people. NPI registry baseline established for weekly tracking.",
+      "status": "verified"
+    }
+  ]
+}
