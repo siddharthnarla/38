@@ -1,0 +1,37 @@
+name: Weekly NPI Workforce Check
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9am UTC
+  workflow_dispatch:       # Also allows manual trigger from GitHub UI
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run NPI check
+        run: python scripts/npi_check.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "38 Initiative Bot"
+          git config user.email "bot@the38initiative.org"
+          git add changelog.json
+          git diff --staged --quiet || git commit -m "Auto: NPI workforce check $(date +'%Y-%m-%d')"
+          git push
