@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-24",
+  "last_run": "2026-08-31",
   "npi_counts": {
     "53001": 0,
     "53003": 0,
@@ -17,7 +17,7 @@
     "53027": 0,
     "53029": 1,
     "53031": 0,
-    "53033": 51,
+    "53033": 52,
     "53035": 3,
     "53037": 0,
     "53039": 0,
@@ -42,6 +42,18 @@
     "53077": 3
   },
   "entries": [
+    {
+      "date": "2026-08-31",
+      "county": "King",
+      "fips": "53033",
+      "type": "npi_change",
+      "severity": "low",
+      "prev_npi": 51,
+      "new_npi": 52,
+      "verified_tier": 1,
+      "note": "NPI count for King County changed from 51 to 52. No tier change expected \u2014 logged for the record.",
+      "status": "unverified"
+    },
     {
       "date": "2026-08-09",
       "county": "All counties",
