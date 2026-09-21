@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-14",
+  "last_run": "2026-09-21",
   "npi_counts": {
     "53001": 0,
     "53003": 0,
@@ -39,9 +39,21 @@
     "53071": 1,
     "53073": 5,
     "53075": 0,
-    "53077": 3
+    "53077": 2
   },
   "entries": [
+    {
+      "date": "2026-09-21",
+      "county": "Yakima",
+      "fips": "53077",
+      "type": "npi_change",
+      "severity": "moderate",
+      "prev_npi": 3,
+      "new_npi": 2,
+      "verified_tier": 4,
+      "note": "NPI records for Yakima, Yakima County dropped from 3 to 2. County is currently Tier 4. If a provider has left, tier may need review.",
+      "status": "unverified"
+    },
     {
       "date": "2026-08-31",
       "county": "King",
